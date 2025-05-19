@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 
 const Square =(props)=>{
   return (
         <div 
-        onClick={()=> props.onClick}
+        onClick = { props.onClick}
         style={{
           border:"1px solid",
           height:"100px",
@@ -15,7 +15,7 @@ const Square =(props)=>{
         
         }}
         className="square">
-          <h5>{props.Value}</h5>
+          <h5>{props.value}</h5>
         </div>
  )
 }
