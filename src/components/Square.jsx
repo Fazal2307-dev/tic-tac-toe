@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Square =()=>{
+const Square =(props)=>{
   return (
   <div 
    style={{
@@ -14,7 +14,7 @@ const Square =()=>{
   
   }}
   className="square">
-    <h5>X</h5>
+    <h5>{props.Value}</h5>
   </div>
  )
 }
