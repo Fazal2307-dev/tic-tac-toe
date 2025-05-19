@@ -3,8 +3,18 @@ import React from "react";
 
 const Square =()=>{
   return (
-  <div className="square">
-    <h1>X</h1>
+  <div 
+   style={{
+    border:"1px solid",
+    height:"100px",
+    width:"40%",
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center"
+  
+  }}
+  className="square">
+    <h5>X</h5>
   </div>
  )
 }
