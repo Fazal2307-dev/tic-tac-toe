@@ -5,17 +5,17 @@ import Square from "./Square";
 const Board = ()=>{
   return (
     <div className="board-container">
-      <div className="Board-row">
+      <div className="board-row">
         <Square />
         <Square />
         <Square />
       </div>
-      <div className="Board-row">
+      <div className="board-row">
         <Square />
         <Square />
         <Square />
       </div>
-      <div className="Board-row">
+      <div className="board-row">
         <Square />
         <Square />
         <Square />
